@@ -9,26 +9,42 @@ Associate policies with clients and claims with policies
 Exception handling and validation to ensure proper API usage and data integrity
 
 
-Project Structure
+## Project Structure
 The project follows the standard Spring Boot project structure:
 
 
 insurance-management/
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/
+
 │   │   │   └── com.example.insurance/
+
 │   │   │       ├── controller/
+
 │   │   │       ├── exception/
+
 │   │   │       ├── model/
+
 │   │   │       ├── repository/
+
 │   │   │       └── service/
+
 │   │   └── resources/
+
 │   │       └── application.properties
+
 │   └── test/
+
 │       └── java/
+
 │           └── com.example.insurance/
+
 │               └── service/
+
 └── pom.xml
 
 
